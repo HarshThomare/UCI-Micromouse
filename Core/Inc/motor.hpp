@@ -17,9 +17,9 @@ enum Direction
 class Motor
 {
 	public:
-		Motor();
-		static void setL(const Direction& dir, const int& mspeed);
-		static void setR(const Direction& dir, const int& mspeed);
+		Motor(){};
+		void setL(const Direction& dir, const int& mspeed);
+		void setR(const Direction& dir, const int& mspeed);
 
 };
 
